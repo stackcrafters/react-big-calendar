@@ -159,10 +159,10 @@ class EventContainerWrapper extends React.Component {
       this.context.draggable.onStart()
     })
 
-    selector.on('select', point => {
-      const bounds = getBoundsForNode(node)
+    selector.on('select', () => {
+      //const bounds = getBoundsForNode(node)
       isBeingDragged = false
-      if (!this.state.event || !pointInColumn(bounds, point)) return
+      if (!this.state.event) return
       this.handleInteractionEnd()
     })
 

@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jquense/react-big-calendar.git"
+    "url": "git+https://github.com/stackcrafters/react-big-calendar.git"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -148,5 +148,9 @@
   },
   "readme": "ERROR: No README data found!",
   "homepage": "https://github.com/jquense/react-big-calendar#readme",
-  "_id": "react-big-calendar@0.22.1"
+  "_id": "react-big-calendar@0.22.1",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  }
 }
